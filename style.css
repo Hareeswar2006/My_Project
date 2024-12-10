@@ -122,3 +122,70 @@ footer p{
     text-align: center;
     padding: 60px 0 0 0;
 }
+@media(max-width:680px){
+    .flex{
+        height: 50vh;
+    }
+    .item2 img{
+        top: 70px;
+        left: 25vw;
+    }
+    .item1 img{
+        height: 50vh;
+    }
+    .name{
+        top: 75px;
+        left: 20px;
+        font-size: 45px;
+    }
+  .item2{
+    height: 80vh;
+  }
+  .item2 p{
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: fit-content;
+    line-height: 20px;
+}
+.item3{
+    height: 60vh;
+    padding: 40px 0 0 0;
+}
+.cat{
+    left: 50px;
+    height: 200px;
+    top: 140px;
+}
+.item3 h2{
+     top: 70px;
+    text-align: center;
+    position: relative;
+    font-size: 2.5rem;
+}
+.item3 .text{
+    top: 157.5%;
+    left: 100px;
+    font-size: 1.8rem;
+}
+.item3 .text2{
+    left: 260px;
+    top: 173%;
+    line-height: 25px;
+    font-size: 1.1rem;
+}
+.item4{
+    height: 70vh;
+    margin-top: 90px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+}
+.item3 hr{
+    margin: 170px auto;
+}
+}
